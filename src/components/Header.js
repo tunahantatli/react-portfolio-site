@@ -1,6 +1,5 @@
 import React from 'react';
-//images
-import Logo from '../assets/logo.jpg'
+
 
 const Header = () => {
   return <header className="py-5">
@@ -8,7 +7,7 @@ const Header = () => {
       <div className='flex justify-between items-center'>
         {/* logo */}
         <a href="#">
-          <h3 className='text-white uppercase'>tt<span className="text-primary">.dev</span></h3>
+          <h3 className='text-white uppercase text-[36px]'><b>tt<span className="text-blue-900">.dev</span></b></h3>
         </a>
         {/* button */}
         <button className='btn btn-sm'>Work with me</button>

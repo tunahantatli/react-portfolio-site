@@ -26,8 +26,7 @@ const Banner = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
               className="text-[57px] font-bold leading-[0.8] lg:text-[110px]"
-            >
-              Tunahan <span>Tatlı</span>
+            >Tunahan <span>Tatlı</span>
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
@@ -100,7 +99,6 @@ const Banner = () => {
           variants={fadeIn("up", 0.3)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
           className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]">
             <img src={Image} alt="" />
           </motion.div>

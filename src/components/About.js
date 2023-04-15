@@ -28,10 +28,10 @@ const About = () => {
           ></motion.div>
           {/* text */}
           <motion.div
-           variants={fadeIn('right', 0.3)}
+           variants={fadeIn('left', 0.5)}
            initial='hidden'
            whileInView={'show'}
-           viewport={{once: false, amount: 0.3}}
+           viewport={{once: false, amount: 0.5}}
            className="flex-1">
             <h2 className="h2 text-accent">About me</h2>
             <h3 className="h3 mb-4">I'm a Full Stack Developer with over 1 years of experience</h3>
